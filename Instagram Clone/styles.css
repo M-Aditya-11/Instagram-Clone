@@ -19,3 +19,24 @@ aside{
     grid-area: aside;
     padding:2rem;
 }
+
+.container nav ul li{
+    padding: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    border-top: 1px solid rgba(225, 225, 225, 0.05);
+    list-style: none;
+}
+
+.container nav ul li:hover{
+    background-color: rgb(227, 227, 227);
+}
+
+.container nav ul li a{
+    color: rgb(0, 0, 0);
+    display: block;
+    text-decoration: none;
+}
+
+.container nav ul li a .fa{
+    width: 29px;
+}
